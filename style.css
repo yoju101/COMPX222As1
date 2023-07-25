@@ -60,14 +60,13 @@ ul.a li {
 
 /* The implementation of A CSS selector of the form element1>element2 */
 #parent-child > ul > li {
-  color: red;
+  color: rgb(6, 6, 6);
   padding: 5px;
-  max-width: 800px;
+  max-width: 700px;
   margin: 0 auto;
-  padding: 8px;
+  padding: 5px;
 
 }
-
 
 /* Content Styles */
 #contents {
@@ -107,7 +106,6 @@ ul.a li {
   margin-left: 32px;
   grid-area: text; /* Assign the text to the "text" grid area */
 }
-
 
 /* set tables to have a default solid border */
 table {

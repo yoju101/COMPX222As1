@@ -20,11 +20,36 @@
   <div id="contents">
     <div id="parent-child">
       <h2>How is a web page downloaded?</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dictum nunc non ipsum cursus rhoncus. Mauris iaculis ante vel nisi iaculis, at consequat odio aliquet. Nam maximus purus nec enim tempus, nec venenatis justo sagittis.</p>
-      <p>This is a paragraph inside the parent div.</p>
+      <h3>Downloading a wedpage</h3>
+      <p>
       <ul>
-        <li>This is a list item inside a ul element.</li>
+        <li><h4>1. Initiating the Request </h4></li>
+          <!-- <p> nsdvgljadvglkag </p> -->
+          When you search for a specific wedpage the internet browser that your useing sends a HTTP GET request to 
+          the wedpages server that your looking at. The request that is sent have information that the servers need 
+          like the requested URL and the type of request like GET or POST. 
+         
+        <li><h4> 2. Receiving the Request on the Server </h4></li>
+          The server processes the request and replies with and HTTP response that is send back to the
+           browser that is being used. The resonse that is send back includeds the information that was requested
+           as well as any addtional information that may be needed like cookies.
+        
+           <picture>
+            <!-- Specify different image versions and their respective sizes -->
+            <source srcset="C:\Users\yonev\OneDrive\Documents\UNI\2023B\222\As\COMPX222As1\images\Server-Response-TimeOG.png" media="(min-width: 768px)">
+            <source srcset="C:\Users\yonev\OneDrive\Documents\UNI\2023B\222\As\COMPX222As1\images\Server-Response-TimeOG.png" media="(min-width: 480px)">
+            <source srcset="C:\Users\yonev\OneDrive\Documents\UNI\2023B\222\As\COMPX222As1\images\Server-Response-TimeOG.png">
+            <!-- Fallback for browsers that do not support the <picture> element -->
+            <img src="images/Server-Response-TimeOG.png" alt="An diagram explaning how a computer comunicates with the database severs">
+          </picture>
+        <li><h4> 3. Retrieving the Web Page Content </h4></li>
+        Once we have received all necessary data from the server, which can include HTML,CSS and JavaScript the wed browser starts 
+        downloading the contents. 
+        <li><h4> Conclusion  </h4></li>
+          When all the data is fully loaded, then you can start interacting with content, and any addtional interactions 
+          that you make with the wedpages startes the entair processes agian for that specifc interaction. 
       </ul>
+    </p>
     </div>
   </div>
   
