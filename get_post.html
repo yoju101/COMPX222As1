@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Teaching HTTP - When to use GET and POST?</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Teaching HTTP</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="what_is_http.html">What is HTTP and HTTPS?</a></li>
+        <li><a href="http_request.html">What is a request?</a></li>
+        <li><a href="web_page_download.html">How is a web page downloaded?</a></li>
+        <li><a href="get_post.html">When to use GET and POST?</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="contents">
+    <h2>When to use GET and POST?</h2>
+    <p> </p>
+    <picture>
+      <!-- Specify different image versions and their respective sizes -->
+      <source src="images/image1Wide.jpg" media="(min-width: 768px)">
+      <source src="images/image1Medium.jpg" media="(min-width: 480px)">
+      <source src="images/imageGetNarrow.png">
+      <!-- Fallback for browsers that do not support the <picture> element -->
+      <img src="images/imageGetNarrow.png" alt="An diagram explaning how a computer comunicates with the database severs">
+    </picture>
+    <p>
+      When and why would you use one type of request and not the other?
+    </p>
+    <p> 
+      Normally you will use GET request when you are working with read only data if the server being used is not 
+      modified an example of A simple GET request is if you are looking up a product on a online store 
+      A POST request is when you for example change or modify the server currently being used an example of this is 
+      if you were to add something to your cart when you are shopping online.
+     </p>
+     <p>
+      <!-- the layout of the table -->
+      <table>
+        <!-- Headings tags (at least two levels)  -->
+        <caption> <h3> POST v GET </h3></caption>
+      <thead>
+      <tr>
+        <th> <h3>POST </h3> </th>
+        <th> <h3>GET </h3></th>
+      </tr>
+    </thead>
+    <!-- table content -->
+    <tbody>
+      <!-- table row -->
+      <tr>
+        <td>More secure </td>
+        <td>Not as secure</td>
+      </tr>
+      <!-- table row -->
+      <tr>
+        <td>Is able to send more data </td>
+        <td>Is not able to send as much data</td>
+      </tr>
+       <!-- table row -->
+       <tr>
+        <td>Sends data in body </td>
+        <td>Send data in header</td>
+      </tr>
+    </tbody>
+    </table>
+     </p>
+  </div>
+  <footer>
+  </footer>
+</body>
+</html>

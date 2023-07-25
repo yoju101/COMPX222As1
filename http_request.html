@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Teaching HTTP - What is a request?</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Teaching HTTP</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="what_is_http.html">What is HTTP and HTTPS?</a></li>
+        <li><a href="http_request.html">What is a request?</a></li>
+        <li><a href="web_page_download.html">How is a web page downloaded?</a></li>
+        <li><a href="get_post.html">When to use GET and POST?</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="contents">
+    <h2>What is a request?</h2>
+    <P>
+            What is the format of a HTTP request?
+    </P>
+          <!-- all the info for the page  -->
+          <p>
+            The first line is the request line, is holds the command like for example GET PUT or POST </p>
+            <p>
+              The second line is the request header fields, these headers are not visible to the user and can 
+              only be logged by the server and applications used.
+            </p>
+          <p>
+            Then we have an empty line to show the seperation between the header and the content 
+            the content is the last line which is the optional request body which is the data being sent to the client however 
+            it is not always necessary to send a resonse body. 
+          </p>
+              <!-- this is the part for the bullet points in the wedsite -->
+              <p>
+                <!-- the buttled point list -->
+                Here we have a list of some of commen HTTP request error codes that can be found.
+                <!-- The implementation of A CSS selector of the form element1 element2  -->
+                <ul class="parent">
+                  <li>Moved Permanently - 301</li>
+                  <li>Bad Request - 400 </li>
+                  <li>Forbidden - 403 </li>
+                  <li>Not Found - 404 </li>
+                  <li>Server Error - 500</li>
+                </ul>
+              </p>
+          </p>
+
+          <!-- Responsive Image using <picture> element -->
+  <picture>
+    <!-- Specify different image versions and their respective sizes -->
+    <source srcset="C:\Users\yonev\OneDrive\Documents\UNI\2023B\222\As\As1\images\requestbig.png" media="(min-width: 768px)">
+    <source srcset="C:\Users\yonev\OneDrive\Documents\UNI\2023B\222\As\As1\images\requestOG.jpg" media="(min-width: 480px)">
+    <source srcset="C:\Users\yonev\OneDrive\Documents\UNI\2023B\222\As\As1\images\requestsmall.png">
+    <!-- Fallback for browsers that do not support the <picture> element -->
+    <img src="images/requestOG.jpg" alt="An diagram explaning how a computer comunicates with the internet severs">
+  </picture>
+        <!-- This is the refrenses to all the linkes to the wedsites that i got information from. -->
+        <!-- https://kb.iu.edu/d/bfrc -->
+        </p>
+  </div>
+  <footer>
+  </footer>
+</body>
+</html>

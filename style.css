@@ -1,0 +1,162 @@
+  /* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #fafafa;
+}
+
+/* Header Styles */
+header {
+  background-color: #000000;
+  color: #fff;
+  padding: 16px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  border-bottom: 1px solid #333;
+  padding-bottom:32px;
+  margin: 0;
+  text-align: center; 
+}
+h3 {
+  border-bottom: 1px solid #333;
+  margin: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+ul.a li {
+  margin-bottom: 7px;
+}
+
+/* The implementation of A CSS selector of the form element1 element2  */
+.parent ul li {
+  text-decoration: none;
+  color: #fafafa;
+  color: blue;
+  padding: 5px;
+}
+
+/* The implementation of A CSS selector of the form element1>element2 */
+#parent-child > ul > li {
+  color: red;
+  padding: 5px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 8px;
+
+}
+
+
+/* Content Styles */
+#contents {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+
+/* A CSS Grid to create a side-by-side layout */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px; 
+  border: 2px solid #333;
+  padding: 10px; 
+  border-bottom: 2px solid #333;
+}
+
+@media (min-width: 500px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "text image";
+  }
+}
+
+/* Style the picture to fit within its grid cell */
+.image-and-text picture {
+  max-width: 100%;
+  height: auto;
+  /* display:grid; */
+  grid-area: image; /* Assign the image to the "image" grid area */
+}
+
+/* Style the text to fit within its grid cell */
+.text-content {
+  margin-left: 32px;
+  grid-area: text; /* Assign the text to the "text" grid area */
+}
+
+
+/* set tables to have a default solid border */
+table {
+  border: 1px;
+  border-style:solid;
+  border-color: black;
+  margin: 0 auto;
+  }
+/* table data should be formatted in arial font */
+td {
+  font-family:Arial;
+  border: 1px;
+  border-style:solid;
+  border-color: black; 
+  width: 150px;
+  height: 100px;
+}
+
+/* table headers should be formatted in black  */
+th {
+  color:black;
+  font-family:  'Arial Narrow Bold', sans-serif;
+  border: 1px;
+  border-style:solid;
+  border-color: black;
+}
+/* center the text in the table  */
+tr {
+  text-align:center;
+}
+p {
+  margin-bottom: 16px;
+}
+
+/* the diffrent fonts */
+.font-style{
+  font-style: italic;
+  color: rgb(243, 88, 65);
+}
+.font-style2{
+  font-style: italic;
+  color: rgb(51, 243, 80);
+}
+
+/* Footer Styles */
+footer {
+  background-color: #000000;
+  text-align: center;
+  padding: 16px;
+}
+
+
